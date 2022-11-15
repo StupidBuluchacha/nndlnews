@@ -397,7 +397,7 @@ def main(LR,N_EPOCHS,runID,HID_DIM,N_LAYERS,ENC_EMB_DIM,DEC_EMB_DIM,ENC_DROPOUT,
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Tuning Vanilla RNN")
+    parser = argparse.ArgumentParser(description="Tuning vanilla RNN")
     parser.add_argument('--lr', type=float, default=0.001, required=False)
     parser.add_argument('--epoch', type=int, default=10, required=False)
     parser.add_argument('--run', type=int, required=True)
